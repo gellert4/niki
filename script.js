@@ -83,7 +83,7 @@ form?.addEventListener('submit', event => {
   document.querySelector('#copy-status').textContent = '';
   const send = document.querySelector('#send-message');
   if (contactURL) {
-    send.href = contactURL.startsWith('https://wa.me/') ? `${contactURL}?text=${encodeURIComponent(prepared.value)}` : contactURL.startsWith('mailto:') ? `${contactURL}?subject=${encodeURIComponent('Terminanfrage · Niki’s Nageldesign')}&body=${encodeURIComponent(prepared.value)}` : contactURL;
+    send.href = contactURL.startsWith('https://wa.me/') ? `${contactURL}?text=${encodeURIComponent(prepared.value)}` : contactURL.startsWith('mailto:') ? `${contactURL}?subject=${encodeURIComponent('Terminanfrage · Niki’s Beauty & Pflege')}&body=${encodeURIComponent(prepared.value)}` : contactURL;
     send.hidden = false;
   }
   dialog.showModal();

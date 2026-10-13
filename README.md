@@ -1,4 +1,4 @@
-# Niki’s Nageldesign
+# Niki’s Beauty & Pflege
 
 Responsive German-language nail studio website inspired by the supplied beige, lavender and burgundy references. **Nail design only**, with no Mama Safe Space, community or partner programme. Built with plain HTML, CSS and JavaScript. No framework, npm install, build step, account keys or database required.
 
@@ -23,10 +23,10 @@ Then visit `http://localhost:8080`.
 
 ## Before a business launch
 
-- Fill in the actual nail studio contact information in **config.js**. The old Mama Safe Space Instagram account is deliberately not used. Priority: WhatsApp, then email, then Instagram. Leave unknown values empty.
+- Contact information is configured for WhatsApp and Instagram; telephone, Facebook and the studio address appear in the contact section.
 - Complete **impressum.html** and **datenschutz.html** with the actual business address, contact details and information appropriate to the chosen hosting and business. These are explicitly incomplete drafts, not a legal compliance guarantee.
-- Confirm the prices against the current business price list. The 16 prices on this website match the price-list image supplied for this request.
-- Confirm the opening date and replace the Coming soon text in **index.html** when appropriate.
+- Confirm the prices against the current business price list. Prices were updated from the supplied Beauty & Pflege price list.
+- The opening promotion offers 10% off one treatment of the customer’s choice.
 - Review the supplied portrait and other inspiration images and replace them with genuine studio/portfolio photos when available. The page does not present generated design-reference images as a customer portfolio.
 
 ## Editing
